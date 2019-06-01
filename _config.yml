@@ -1,0 +1,39 @@
+# Site Settings
+title: 이기정의 프로그래밍 블로그
+email: kjlee@babitalk.com
+description: 자바기반의 언어와 안드로이드와 네트워크에 대해 기술하는 블로그입니다.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+
+# User Settings
+username: Lee kijung
+user_description: 사회공헌을 위한 개발을 좋아합니다. 최근엔 안드로이드 플랫폼을 기반으로하는 Reactive Programing에 관심이 많습니다.
+disqus_username: disqus_username
+
+# Social Media
+# Remove the item if you don't need it
+github_username: dlrlwjd1127
+facebook_username: soda1127
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
