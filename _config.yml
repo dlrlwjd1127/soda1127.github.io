@@ -1,5 +1,5 @@
 # Site Settings
-title: 소다의 프로그래밍 블로그
+title: 소다의 개발 블로그
 email: dlrlwjd1127@naver.com
 description: 자바 기반의 언어와 안드로이드와 네트워크에 대해 기술하는 블로그입니다.
 
@@ -9,7 +9,7 @@ url: "https://soda1127.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-141286933-1"
 
 # User Settings
-username: 소다의 프로그래밍 블로그
+username: 소다의 개발 블로그
 user_description: 사회공헌을 위한 개발을 좋아합니다. 최근엔 안드로이드 플랫폼을 기반으로하는 Reactive Programing에 관심이 많습니다.
 disqus_username: https-soda1127-github-io
 
