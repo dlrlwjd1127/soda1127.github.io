@@ -1,0 +1,45 @@
+# Site Settings
+title: 소다의 프로그래밍 블로그
+email: dlrlwjd1127@naver.com
+description: 자바 기반의 언어와 안드로이드와 네트워크에 대해 기술하는 블로그입니다.
+
+remote_theme : thiagorossener/jekflix-template
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://soda1127.github.io" # the base hostname & protocol for your site
+google_analytics: "UA-141286933-1"
+
+# User Settings
+username: 소다의 프로그래밍 블로그
+user_description: 사회공헌을 위한 개발을 좋아합니다. 최근엔 안드로이드 플랫폼을 기반으로하는 Reactive Programing에 관심이 많습니다.
+disqus_username: https-soda1127-github-io
+
+# Social Media
+# Remove the item if you don't need it
+github_username: SODA1127
+facebook_username: soda1127
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+paginate: 12
+paginate_path: "/page/:num/"
+svg_color: "#ff0a16"
+
+# Plugins
+plugins:
+  - jemoji
+  - jekyll-paginate
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
